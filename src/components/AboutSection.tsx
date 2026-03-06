@@ -1,6 +1,5 @@
 import aboutImg from "@/assets/about-care.jpg";
-import logoPaper from "@/assets/image 1.jpeg";
-import logo3d from "@/assets/image2.jpeg";
+import geminiImage from "@/assets/Gemini_Generated_Image_r1i60rr1i60rr1i6.png";
 
 const AboutSection = () => {
   return (
@@ -49,25 +48,24 @@ const AboutSection = () => {
         </div>
       </section>
 
-      {/* Logo Showcase Section */}
-      <section className="py-16 bg-muted/50">
+      {/* Gemini Image Section */}
+      <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-16 max-w-6xl mx-auto">
-            {/* 3D Logo */}
-            <div className="flex justify-center items-center">
-              <img
-                src={logo3d}
-                alt="3D Logo"
-                className="w-full h-auto object-contain max-h-80"
-              />
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-8">
+              <h2 className="font-heading text-secondary text-2xl md:text-3xl font-bold mb-4">
+                Our Facility
+              </h2>
+              <p className="font-body text-foreground/70">
+                A comfortable and welcoming environment for your healthcare journey
+              </p>
             </div>
-
-            {/* Paper Logo */}
-            <div className="flex justify-center items-center">
+            <div className="relative">
+              <div className="absolute -top-4 -right-4 w-full h-full border-2 border-primary rounded-2xl" />
               <img
-                src={logoPaper}
-                alt="Print Logo"
-                className="w-full h-auto object-contain max-h-80"
+                src={geminiImage}
+                alt="Mdingi Midwifery Services Facility"
+                className="relative rounded-2xl shadow-xl w-full h-auto object-cover"
               />
             </div>
           </div>
