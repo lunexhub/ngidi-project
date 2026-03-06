@@ -1,4 +1,5 @@
 import { Heart, Calendar, Home, Baby, Stethoscope, Droplet } from "lucide-react";
+import servicesBg from "@/assets/image2.jpeg";
 
 const ourServicesData = [
   {
@@ -35,8 +36,18 @@ const ourServicesData = [
 
 const OurServicesSection = () => {
   return (
-    <section id="services" className="py-20 bg-background">
-      <div className="container mx-auto px-4">
+    <section id="services" className="relative py-20">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <img 
+          src={servicesBg} 
+          alt="Background" 
+          className="w-full h-full object-cover opacity-60"
+        />
+      </div>
+      
+      {/* Content */}
+      <div className="relative z-10 container mx-auto px-4">
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="font-heading text-foreground text-2xl sm:text-3xl md:text-4xl font-bold mb-4">Our services</h2>
         </div>
@@ -47,7 +58,7 @@ const OurServicesSection = () => {
             return (
               <div
                 key={index}
-                className="bg-white rounded-xl p-6 sm:p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300"
+                className="bg-white/95 backdrop-blur-sm rounded-xl p-6 sm:p-8 shadow-lg border border-gray-100/50 hover:shadow-xl transition-shadow duration-300"
               >
                 <div className="flex flex-col items-center text-center">
                   <div className="bg-green-100 rounded-lg p-4 mb-6">

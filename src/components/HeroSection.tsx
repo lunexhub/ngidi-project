@@ -31,6 +31,9 @@ const HeroSection = () => {
           </a>
         </div>
         <p className="mt-8 text-primary-foreground/60 font-body text-sm">Most Medical Aid's Accepted</p>
+        <div className="mt-4 inline-block bg-primary/10 backdrop-blur-sm border border-primary/20 rounded-lg px-6 py-3">
+          <p className="text-primary font-body text-sm font-semibold">24 hour operation for birthing</p>
+        </div>
       </div>
     </section>
   );

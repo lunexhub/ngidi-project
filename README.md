@@ -1,8 +1,8 @@
-# Welcome to LunexOS
+# Welcome to Mdingi Midwifery Services
 
 ## Project info
 
-**URL**: https://lunexos.app
+**URL**: https://mdingimidwiferyservices.co.za
 
 ## How can I edit this code?
 
