@@ -32,15 +32,15 @@ const AboutSection = () => {
               <div className="flex flex-wrap gap-4">
                 <div className="bg-muted rounded-lg px-5 py-3 text-center">
                   <p className="font-heading text-primary text-2xl font-bold">Mon–Fri</p>
-                  <p className="font-body text-foreground/60 text-xs">18h00 – 20h00</p>
+                  <p className="font-body text-foreground/60 text-xs">08:00 – 16:00</p>
                 </div>
                 <div className="bg-muted rounded-lg px-5 py-3 text-center">
                   <p className="font-heading text-primary text-2xl font-bold">Sat</p>
-                  <p className="font-body text-foreground/60 text-xs">09h00 – 16h00</p>
+                  <p className="font-body text-foreground/60 text-xs">09:00 – 15:00</p>
                 </div>
                 <div className="bg-muted rounded-lg px-5 py-3 text-center">
                   <p className="font-heading text-primary text-2xl font-bold">Sun</p>
-                  <p className="font-body text-foreground/60 text-xs">09h00 – 13h00</p>
+                  <p className="font-body text-foreground/60 text-xs">Closed</p>
                 </div>
               </div>
             </div>
