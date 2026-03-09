@@ -13,6 +13,9 @@ const HeroSection = () => {
           Mdingi Midwifery<br />
           <span className="text-primary">Services</span> & Wellness Clinic
         </h1>
+        <p className="font-heading text-primary text-xl md:text-2xl font-medium mb-4 italic">
+          Trusted hands for life's 1st moments
+        </p>
         <p className="font-body text-primary-foreground/80 text-lg md:text-xl max-w-2xl mx-auto mb-8">
           Dedicated to enhancing your well-being through personalized, compassionate, and cutting-edge maternal & medical care.
         </p>
