@@ -34,6 +34,37 @@ const HeroSection = () => {
         <div className="mt-4 inline-block bg-primary/10 backdrop-blur-sm border border-primary/20 rounded-lg px-6 py-3">
           <p className="text-primary font-body text-sm font-semibold">24 hour operation for birthing</p>
         </div>
+        
+        {/* Launch Day Card */}
+        <div className="mt-8 inline-flex flex-col sm:flex-row gap-4 items-center justify-center">
+          <div className="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground rounded-2xl p-6 shadow-2xl max-w-sm backdrop-blur-sm border border-primary/20 hover:shadow-3xl transition-all duration-300 hover:scale-105">
+            <div className="text-center">
+              <div className="mb-3">
+                <span className="inline-block bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 text-xs font-body font-semibold uppercase tracking-wider">
+                  🎉 Launch Day
+                </span>
+              </div>
+              <h3 className="font-heading text-2xl font-bold mb-3">Grand Opening</h3>
+              <div className="space-y-2 text-sm">
+                <div className="flex items-center justify-center gap-2">
+                  <span className="font-semibold">📅</span>
+                  <span>15 March 2026</span>
+                </div>
+                <div className="flex items-center justify-center gap-2">
+                  <span className="font-semibold">🕐</span>
+                  <span>14:00 - 17:00</span>
+                </div>
+                <div className="flex items-center justify-center gap-2">
+                  <span className="font-semibold">📍</span>
+                  <span>11193 Nareng Street</span>
+                </div>
+              </div>
+              <div className="mt-4 pt-4 border-t border-white/20">
+                <p className="text-xs font-body opacity-90">Join us for our special launch day celebration!</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

@@ -1,4 +1,4 @@
-import { Heart, Calendar, Home, Baby, Stethoscope, Droplet } from "lucide-react";
+import { Heart, Calendar, Home, Baby, Stethoscope, Droplet, Bandage } from "lucide-react";
 import servicesBg from "@/assets/image2.jpeg";
 
 const ourServicesData = [
@@ -31,6 +31,11 @@ const ourServicesData = [
     icon: Droplet,
     title: "IV Drip Therapy",
     description: "Intravenous hydration and vitamin therapy for expectant mothers, postpartum recovery, and general wellness to help you feel your best."
+  },
+  {
+    icon: Bandage,
+    title: "Wound Care",
+    description: "Professional wound management including dressing changes, infection prevention, suture removal, and follow-up care to promote optimal healing and recovery."
   }
 ];
 
