@@ -59,7 +59,7 @@ const HeroSection = () => {
                 </div>
                 <div className="flex items-center justify-center gap-2">
                   <span className="font-semibold">📍</span>
-                  <span>11193 Nareng Street</span>
+                  <span>Daveyton 1520</span>
                 </div>
               </div>
               <div className="mt-4 pt-4 border-t border-white/20">
