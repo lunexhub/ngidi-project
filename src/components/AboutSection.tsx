@@ -23,6 +23,9 @@ const AboutSection = () => {
               <p className="font-body text-foreground/80 leading-relaxed mb-6">
                 At Mdingi Midwifery Services and Wellness Clinic, we are dedicated to enhancing your well-being through personalized, compassionate, and cutting-edge medical care. From prenatal to postnatal, our experienced team ensures you receive the highest quality healthcare.
               </p>
+              <p className="font-body text-foreground/90 leading-relaxed mb-6 font-medium">
+                Last line : we also take care of post caesarean section mothers in taking care of the operation site under asceptic techniques and all wounds in general.
+              </p>
               <div className="bg-accent rounded-xl p-6 mb-6">
                 <h3 className="font-heading text-secondary text-xl font-semibold mb-2">Sr Sisanda Sibulali</h3>
                 <p className="font-body text-foreground/70 text-sm">Professional Nurse and Midwife</p>
